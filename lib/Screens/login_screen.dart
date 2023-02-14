@@ -73,6 +73,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Padding(
                   padding: EdgeInsets.all(10),
                   child: TextField(
+                    obscureText: true,
                     decoration: InputDecoration(
                         filled: true,
                         fillColor: Colors.yellow[200],

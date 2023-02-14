@@ -279,7 +279,7 @@ class _CustomisePartsState extends State<CustomiseParts> {
             ),
             Container(
               width: double.infinity,
-              height: 300,
+              height: 230,
               color: Colors.grey[300],
               child: Column(
                 children: [
@@ -314,7 +314,24 @@ class _CustomisePartsState extends State<CustomiseParts> {
                         child: Text('Gallery'),
                       ),
                     ],
-                  )
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(
+                        'assets/demo.png',
+                        fit: BoxFit.cover,
+                        height: 160,
+                        width: 160,
+                      ),
+                      Image.asset(
+                        'assets/demo.png',
+                        fit: BoxFit.cover,
+                        height: 160,
+                        width: 160,
+                      )
+                    ],
+                  ),
                 ],
               ),
             )
