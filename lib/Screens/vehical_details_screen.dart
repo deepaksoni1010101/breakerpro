@@ -1,5 +1,6 @@
 import 'dart:ffi';
 
+import 'package:breakerpro/Screens/allocate_parts.dart';
 import 'package:breakerpro/Screens/body_type.dart';
 import 'package:breakerpro/Screens/manufacture_year.dart';
 import 'package:breakerpro/Screens/select_make.dart';
@@ -567,7 +568,12 @@ class _VehicleDetailsState extends State<VehicleDetails> {
                       fixedSize: Size(400, 60),
                       primary: Colors.white,
                       backgroundColor: Colors.yellow[800]),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => AllocateParts()));
+                  },
                   child: Text(
                     "Allocate Parts",
                     style: TextStyle(

@@ -18,22 +18,206 @@ class _SelectMakeState extends State<SelectMake> {
           Container(
             height: 50,
             color: Colors.white,
-            child: Text('Apple'),
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'AC COBRA',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
           ),
           Container(
             height: 50,
             color: Colors.white,
-            child: Text('Banana'),
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'ALFA ROMEO',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
           ),
           Container(
             height: 50,
             color: Colors.white,
-            child: Text('Mango'),
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'ALLY',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
           ),
           Container(
             height: 50,
             color: Colors.white,
-            child: Text('Orange'),
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'ALLY0207',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'APRILIA',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'AUDI',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'AUSTIN',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'B',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'BEDFORD',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'BENALU',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'BENELLI',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 50,
+            color: Colors.white,
+            child: Padding(
+              padding: const EdgeInsets.only(
+                top: 18,
+                left: 25,
+              ),
+              child: Text(
+                'DENTLEY',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 2,
           ),
         ],
       ),
